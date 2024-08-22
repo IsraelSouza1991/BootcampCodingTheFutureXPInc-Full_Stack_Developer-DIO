@@ -12,3 +12,29 @@ pessoa1.Apresentar();
 
 Pessoa pessoa_FisicaRepresentacao =  new Pessoa();
 
+/* Casting */
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+// Console.WriteLine(a);
+
+/* Casting implícito */
+
+// int a = 5;
+// double b = a;
+
+// Console.WriteLine(b);
+
+/* Não é necessário fazer uma conversão,
+pois o tipo de variável que estamos tentando converter
+é de um tipo que suporta */
+
+/*Convertendo de maneira segura*/
+
+string a = "15";
+int b = 0;
+
+int.TryParse(a, out b);
+
+Console.WriteLine(b);
+Console.WriteLine("Conversão realizada com sucesso");
