@@ -31,10 +31,25 @@ pois o tipo de variável que estamos tentando converter
 
 /*Convertendo de maneira segura*/
 
-string a = "15";
-int b = 0;
+// string a = "15";
+// int b = 0;
 
-int.TryParse(a, out b);
+// int.TryParse(a, out b);
 
-Console.WriteLine(b);
-Console.WriteLine("Conversão realizada com sucesso");
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso");
+
+/* Operador condicional */
+
+int quantidadeEmEstoque = 10;
+
+int quantidadeCompra = 4;
+
+if (quantidadeEmEstoque >= quantidadeCompra)
+{
+    Console.WriteLine("Venda Realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade deseja em estoque.");
+}
