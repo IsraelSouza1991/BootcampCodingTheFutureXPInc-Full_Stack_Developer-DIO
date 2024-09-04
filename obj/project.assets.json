@@ -13,21 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Israe\\Documents\\MeusProjetos\\Projetos de Estudos\\Bootcamp Coding The Future XP Inc - Full Stack Developer # DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO.csproj",
+      "projectUniqueName": "C:\\Users\\Israe\\PROJETOS\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO.csproj",
       "projectName": "BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO",
-      "projectPath": "C:\\Users\\Israe\\Documents\\MeusProjetos\\Projetos de Estudos\\Bootcamp Coding The Future XP Inc - Full Stack Developer # DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO.csproj",
+      "projectPath": "C:\\Users\\Israe\\PROJETOS\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO.csproj",
       "packagesPath": "C:\\Users\\Israe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Israe\\Documents\\MeusProjetos\\Projetos de Estudos\\Bootcamp Coding The Future XP Inc - Full Stack Developer # DIO\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\obj\\",
+      "outputPath": "C:\\Users\\Israe\\PROJETOS\\BootcampCodingTheFutureXPInc-Full_Stack_Developer-DIO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Israe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

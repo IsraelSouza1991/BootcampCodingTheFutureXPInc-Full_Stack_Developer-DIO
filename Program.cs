@@ -41,15 +41,16 @@ pois o tipo de variável que estamos tentando converter
 
 /* Operador condicional */
 
-int quantidadeEmEstoque = 10;
+// int quantidadeEmEstoque = 10;
 
-int quantidadeCompra = 4;
+// int quantidadeCompra = 4;
 
-if (quantidadeEmEstoque >= quantidadeCompra)
-{
-    Console.WriteLine("Venda Realizada.");
-}
-else
-{
-    Console.WriteLine("Desculpe, não temos a quantidade deseja em estoque.");
-}
+// if (quantidadeEmEstoque >= quantidadeCompra)
+// {
+//     Console.WriteLine("Venda Realizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade deseja em estoque.");
+// }
+
