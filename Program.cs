@@ -1,16 +1,17 @@
 ﻿// Sintaxe e tipos de dados em  C#
+using System.Reflection.Metadata;
 using BootcampCodingTheFutureXPInc_Full_Stack_Developer_DIO.Models;
 
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
-Pessoa pessoa1 = new Pessoa();
+// Pessoa pessoa1 = new Pessoa();
 
-pessoa1.Nome = "Israel";
-pessoa1.Idade = 32;
-pessoa1.Apresentar();
+// pessoa1.Nome = "Israel";
+// pessoa1.Idade = 32;
+// pessoa1.Apresentar();
 
-Pessoa pessoa_FisicaRepresentacao =  new Pessoa();
+// Pessoa pessoa_FisicaRepresentacao =  new Pessoa();
 
 /* Casting */
 
@@ -56,4 +57,22 @@ pois o tipo de variável que estamos tentando converter
 
 Calculadora calc = new Calculadora();
 
-calc.Somar(4,8);
+// calc.Somar(4,8);
+// calc.Subtrair(6, 19);
+// calc.Multiplicar(9, 50);
+// calc.Dividir(60,5);
+// calc.Potencia(5,2);
+// calc.PularLinha();
+// int n = 30;
+// calc.Seno(n);
+// calc.Coseno(n);
+// calc.Tangente(n);
+calc.RaizQuadrada(9);
+
+// int num = 10;
+// Console.WriteLine(num);
+// Console.WriteLine("Incrementando o 10");
+// // num = num +1;
+// num++;
+// Console.WriteLine(num);
+
