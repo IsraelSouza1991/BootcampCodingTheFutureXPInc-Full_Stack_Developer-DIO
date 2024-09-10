@@ -54,3 +54,6 @@ pois o tipo de variável que estamos tentando converter
 //     Console.WriteLine("Desculpe, não temos a quantidade deseja em estoque.");
 // }
 
+Calculadora calc = new Calculadora();
+
+calc.Somar(4,8);
