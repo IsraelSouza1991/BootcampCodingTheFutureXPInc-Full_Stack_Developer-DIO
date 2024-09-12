@@ -55,7 +55,7 @@ pois o tipo de variável que estamos tentando converter
 //     Console.WriteLine("Desculpe, não temos a quantidade deseja em estoque.");
 // }
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(4,8);
 // calc.Subtrair(6, 19);
@@ -67,7 +67,7 @@ Calculadora calc = new Calculadora();
 // calc.Seno(n);
 // calc.Coseno(n);
 // calc.Tangente(n);
-calc.RaizQuadrada(9);
+// calc.RaizQuadrada(9);
 
 // int num = 10;
 // Console.WriteLine(num);
@@ -76,3 +76,16 @@ calc.RaizQuadrada(9);
 // num++;
 // Console.WriteLine(num);
 
+
+int soma = 0, numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número (0 para parar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+
+} while(numero != 0);
+
+Console.WriteLine($"Total da soma dos números digitados é: {soma}");
